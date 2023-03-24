@@ -153,7 +153,7 @@ public class AboutDialog extends BasicDialog implements Themeable {
     }
 
     private void checkForUpdate() {
-        lblUpdate.setText("You have the single special version.");
+        lblUpdate.setText("You have the single special version for Infoclinica.ru .");
         updateButton.setVisible(false);
         //Version latestVersion = AboutInfo.findLatestVersion();
         //if (latestVersion.greaterThan(Constants.VERSION)) {
